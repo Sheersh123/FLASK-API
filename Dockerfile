@@ -6,6 +6,6 @@ COPY . .
 RUN addgroup -S app && adduser -S app -G app
 RUN chown -R app:app /usr/local/app
 USER app
-ENV flask_APP=app.py
+ENV Flask_APP=app.py
 EXPOSE 5000
 CMD ["flask", "run" ,"--host=0.0.0.0" , "--port=5000"]
