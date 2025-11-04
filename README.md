@@ -14,8 +14,8 @@ requirements.txt: Python library dependencies
 ⚡ Quick Start
 1. Clone & Setup
 bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/Sheersh123/FLASK-API.git
+cd Flask-APP
 2. Build & Run (with Docker Compose)
 bash
 docker compose up --build -d
